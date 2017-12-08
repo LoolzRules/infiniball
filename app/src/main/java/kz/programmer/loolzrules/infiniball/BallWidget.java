@@ -17,8 +17,7 @@ import static kz.programmer.loolzrules.infiniball.BallWidgetConfigureActivity.PR
 
 
 public class BallWidget extends AppWidgetProvider {
-
-    // TODO: animate this shit
+    
     // TODO: widgets get same duration
 
     public static final String IS_CLICK = "is_click";
@@ -28,13 +27,13 @@ public class BallWidget extends AppWidgetProvider {
 
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.ball_widget);
-        views.setOnClickPendingIntent(R.id.whole, setupButtonPendingIntent(context, appWidgetId));
+        views.setOnClickPendingIntent(R.id.whole, setupPendingIntent(context, appWidgetId));
 
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }
 
-    public static PendingIntent setupButtonPendingIntent(Context context, int appWidgetId) {
+    public static PendingIntent setupPendingIntent(Context context, int appWidgetId) {
         Intent intent = new Intent();
         intent.setAction(ACTION_APPWIDGET_UPDATE);
         intent.putExtra(IS_CLICK, true);

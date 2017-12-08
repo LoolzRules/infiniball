@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <objectAnimator android:duration="1000" android:interpolator="@android:anim/overshoot_interpolator" android:propertyName="rotation" android:valueFrom="0" android:valueTo="1080" android:valueType="floatType" />
+    </item>
+</selector>
