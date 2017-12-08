@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">InfiniBall</string>
+    <string name="configure">Настроить</string>
+    <string name="add_widget">Готово</string>
+    <string name="duration">Показывать предсказания долго</string>
+
+    <string-array name="answers_pos">
+        <item>Однозначно да!</item>
+        <item>Да, да, и еще раз да!</item>
+        <item>Так говорится в пророчестве.</item>
+        <item>Сама судьба говорит да.</item>
+        <item>Большой брат подтверждает это.</item>
+    </string-array>
+
+    <string-array name="answers_semipos">
+        <item>Отвечу да на всякий случай.</item>
+        <item>Да, но это не точно.</item>
+        <item>Мне лень гадать, давай притворимся что да.</item>
+        <item>Мы тут прикинули, шансы точно неплохие.</item>
+        <item>Скорее да чем нет.</item>
+    </string-array>
+
+    <string-array name="answers_undef">
+        <item>50 на 50</item>
+        <item>Связь плохая, перезвони!</item>
+        <item>Мана на исходе, прости.</item>
+        <item>Ответа нет, но ты держись там.</item>
+        <item>Непонятно что тебя порадует, скажу что не знаю.</item>
+    </string-array>
+
+    <string-array name="answers_semineg">
+        <item>Не думаю.</item>
+        <item>Мой ответ нет.</item>
+        <item>Надежда невелика.</item>
+        <item>Зал подсказывает что нет.</item>
+        <item>Скорее нет чем да.</item>
+    </string-array>
+
+    <string-array name="answers_neg">
+        <item>Даже не мечтай.</item>
+        <item>Нет, и это точно.</item>
+        <item>Ответ отрицательный.</item>
+        <item>Вот прямо вообще нет.</item>
+        <item>Шансы равны нулю.</item>
+    </string-array>
+
+</resources>
